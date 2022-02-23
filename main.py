@@ -4,51 +4,6 @@ import time
 
 start_time = time.time()
 
-
-"""
-## EASY
-start_grid[0,:] = [7,3,0, 5,0,0, 0,2,8]
-start_grid[1,:] = [8,0,0, 0,0,9, 0,6,0]
-start_grid[2,:] = [0,9,0, 3,0,0, 4,1,5]
-
-start_grid[3,:] = [3,0,1, 0,0,0, 6,7,0]
-start_grid[4,:] = [4,0,9, 0,5,0, 8,0,0]
-start_grid[5,:] = [0,8,0, 0,1,0, 0,4,9]
-
-start_grid[6,:] = [9,0,6, 8,0,2, 1,5,0]
-start_grid[7,:] = [0,2,0, 7,4,5, 0,0,0]
-start_grid[8,:] = [5,0,3, 0,0,0, 0,0,4]
-
-## HARD
-start_grid[0,:] = [0,0,0, 0,8,2, 0,0,0]
-start_grid[1,:] = [0,8,0, 0,0,6, 4,0,0]
-start_grid[2,:] = [9,6,0, 4,0,1, 0,0,0]
-
-start_grid[3,:] = [0,0,0, 5,0,0, 0,1,0]
-start_grid[4,:] = [0,4,0, 0,0,3, 2,0,0]
-start_grid[5,:] = [5,3,0, 6,2,0, 0,0,0]
-
-start_grid[6,:] = [0,0,6, 0,0,0, 0,0,2]
-start_grid[7,:] = [2,0,0, 0,0,0, 7,4,5]
-start_grid[8,:] = [0,5,0, 0,4,0, 0,9,6]
-
-## EXPERT 1
-start_grid[0,:] = [0,0,0, 0,0,0, 1,0,0]
-start_grid[1,:] = [5,0,6, 1,3,2, 0,0,0]
-start_grid[2,:] = [9,0,0, 0,0,0, 0,0,8]
-
-start_grid[3,:] = [0,0,0, 0,0,7, 9,0,3]
-start_grid[4,:] = [0,0,0, 9,1,0, 0,0,0]
-start_grid[5,:] = [7,0,0, 0,8,0, 0,5,0]
-
-start_grid[6,:] = [3,7,0, 2,0,0, 0,0,0]
-start_grid[7,:] = [0,0,0, 0,0,0, 0,0,6]
-start_grid[8,:] = [0,2,0, 0,0,0, 0,4,5]
-"""
-
-
-
-
 def cell_options(grid,i,j, verbose = 0):
     """Returns the options, or possible digits, that can be inputed in this cell's place
     args:
