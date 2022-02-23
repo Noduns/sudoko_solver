@@ -1,5 +1,3 @@
-# sudoko_solver
+# Sudoko solver in Python
 
-Sudoku solver that takes an Sudoku a 2D numpy array
-
-It should solve the most difficult Sudoku in about ~5sec
+It takes an Sudoku a 2D numpy array and should solve the most difficult Sudoku in about ~5sec
