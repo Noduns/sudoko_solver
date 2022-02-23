@@ -14,8 +14,7 @@ def cell_options(grid,i,j, verbose = 0):
     returns : a array of 9 booleans for each digit
     """
     row_options,col_options,box_options = np.ones(9),np.ones(9),np.ones(9)
-    i_box = i//3
-    j_box = j//3
+    i_box,j_box = i//3,j//3
 
     if grid[i,j]!=0: # there is a digits at the location
         c_options = np.zeros(9)
